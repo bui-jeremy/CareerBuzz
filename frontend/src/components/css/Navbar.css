@@ -1,0 +1,29 @@
+/* Navbar container */
+.navbar {
+    background-color: #333333;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+  }
+  
+  /* All navbar links, including CareerBuzz */
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  /* CareerBuzz logo styling */
+  .navbar a:first-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  

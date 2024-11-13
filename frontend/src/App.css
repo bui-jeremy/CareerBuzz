@@ -1,0 +1,32 @@
+/* General styling */
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h4 {
+  color: #bb86fc;
+}
+
+/* Shared button styling */
+.MuiButton-contained {
+  background-color: #03dac5 !important;
+  color: #121212 !important;
+  font-weight: bold;
+}
+
+/* TextField and Select styling */
+.MuiTextField-root, .MuiFormControl-root {
+  margin-bottom: 15px;
+}
+
+.MuiInputLabel-root, .MuiOutlinedInput-root {
+  color: #bb86fc !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #03dac5;
+}
